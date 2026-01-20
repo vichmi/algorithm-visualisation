@@ -100,10 +100,6 @@ const VisualizationPanel = () => {
           )),
         )}
       </div>
-
-      <p className="mt-4 text-gray-600 text-sm">
-        Click and drag to draw walls.
-      </p>
     </div>
   );
 };
