@@ -100,34 +100,6 @@ const VisualizationPanel = () => {
           )),
         )}
       </div>
-
-      <p className="mt-4 text-gray-600 text-sm">
-        Click and drag to draw walls.
-      </p>
-
-      {/* <div>
-        <button onClick={handleClear}>Clear</button>
-        <input
-          className="bg-gray-200"
-          type="number"
-          placeholder="Rows"
-          min={1}
-          max={20}
-          onChange={(t) => {
-            setRows(Number(t.target.value));
-          }}
-        />
-        <input
-          className="bg-gray-200"
-          type="number"
-          placeholder="Cols"
-          min={1}
-          max={20}
-          onChange={(t) => {
-            setCols(Number(t.target.value));
-          }}
-        />
-      </div> */}
     </div>
   );
 };
